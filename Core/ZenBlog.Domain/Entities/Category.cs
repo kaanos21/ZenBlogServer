@@ -10,6 +10,6 @@ namespace ZenBlog.Domain.Entities
     public class Category: BaseEntity
     {
         public string CategoryName { get; set; }
-        public virtual IQueryable<Blog> Blogs { get; set; }
+        public virtual ICollection<Blog> Blogs { get; set; }
     }
 }

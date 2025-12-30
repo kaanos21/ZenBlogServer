@@ -15,11 +15,12 @@
     <PackageReference Include="FluentValidation" Version="12.1.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.0" />
     <PackageReference Include="MediatR" Version="13.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.11" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Blogs\Commands\" />
-    <Folder Include="Features\Blogs\Queries\" />
+    <Folder Include="Features\Comments\Validators\" />
+    <Folder Include="Features\User\Queries\" />
   </ItemGroup>
 
 </Project>
